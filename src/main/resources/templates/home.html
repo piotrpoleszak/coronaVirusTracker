@@ -12,20 +12,19 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="mx-auto">
+            <div class="mx-auto mt-4">
                 <h1 class="display-4">Coronavirus Tracker Application</h1>
-                <hr class="my-4">
-
+                <hr class="my-5">
             </div>
         </div>
         <div class="row">
             <div class="mx-auto">
                 <div class="jumbotron">
-                    <h1 class="display-4" th:text="${totalReportedCases}"></h1>
-                    <p class="lead">Total cases reported as of today</p>
-                    <p>
-                        <span>New cases reported since previous day: </span>
-                        <span th:text="${totalNewCases}"></span>
+                    <p class="lead mx-auto mt-4">Total cases reported as of today:</p>
+                    <h1 class="display-4 mx-auto" th:text="${totalReportedCases}"></h1>
+                    <p class="mt-5">
+                        <span class="mx-auto">New cases reported since previous day: </span>
+                        <h2 class="mx-auto" th:text="${totalNewCases}"></h2>
                     </p>
                 </div>
             </div>

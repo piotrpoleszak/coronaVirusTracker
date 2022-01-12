@@ -4,17 +4,8 @@ body
     color: #FFF!important;
 }
 
-.header
-{
-    justify-content: center!important;
-    margin-left: auto!important;
-    margin-right: auto!important;
-}
-
 .mx-auto
 {
-   display: flex;
-   justify-content: center;
    margin-right: auto !important;
    margin-left: auto !important;
 }
